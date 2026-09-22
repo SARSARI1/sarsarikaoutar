@@ -1,0 +1,236 @@
+{
+  "profile": {
+    "name": "Kaoutar Sarsari",
+    "initials": "KS",
+    "roles": ["PhD Researcher, AI & Machine Learning", "Teaching Assistant", "Software Engineer"],
+    "tagline": "I study how machines learn, and I like teaching people the same thing.",
+    "location": "Khouribga, Morocco — originally from Ouarzazate, at the gate of the Atlas Mountains",
+    "email": "kaoutarsarsari@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kaoutar-sarsari",
+    "kilma": "https://kilma.app/@Kaoutar_Sarsari",
+    "cvUrl": "/kaoutar_sarsari.pdf",
+    "photo": "/images/graduation.jpeg",
+    "motto": "Always be creative like cartoons, positive like protons.",
+    "visitorCounterPath": "sarsari1.github.io"
+  },
+  "news": [
+    {
+      "date": "Aug 2026",
+      "text": "Gave this website a full seasonal redesign.",
+      "link": ""
+    },
+    {
+      "date": "Feb 2026",
+      "text": "Started leading lab sessions for the Machine Learning undergraduate course.",
+      "link": ""
+    },
+    {
+      "date": "Dec 2024",
+      "text": "Began my PhD in AI & Machine Learning at LaSTI Lab.",
+      "link": ""
+    }
+  ],
+  "articles": [
+    {
+      "title": "Add your first publication here",
+      "type": "Conference Paper",
+      "venue": "Name of the conference or journal",
+      "date": "2026",
+      "authors": "K. Sarsari, et al.",
+      "link": ""
+    }
+  ],
+  "about": {
+    "intro": "I'm a first-year PhD researcher at LaSTI Lab, working on artificial intelligence and machine learning, and a teaching assistant supporting undergraduate courses. Before research, I trained as a software engineer — that mix still shapes how I work: rigorous about ideas, practical about building things.",
+    "philosophyTitle": "Be like an onion",
+    "philosophy": "A Berber proverb my family raised me on: be like an onion — it keeps growing in almost any condition, even without soil. That's how I try to learn: in the lab, in the classroom, and in whatever new field pulls my curiosity next.",
+    "philosophyPhoto": "/images/onion-philosophy.png",
+    "timeline": [
+      {
+        "years": "Kindergarten – 2020",
+        "title": "Imam Ali High School, Ouarzazate",
+        "text": "Graduated with honors in physical sciences."
+      },
+      {
+        "years": "2020 – 2025",
+        "title": "ENSAK — National School of Applied Sciences, Khouribga",
+        "text": "Computer science degree, graduated with honors in Software Engineering."
+      },
+      {
+        "years": "Dec 2024 – Present",
+        "title": "PhD in AI & Machine Learning, LaSTI Lab",
+        "text": "First-year doctoral researcher, working with academic and industry partners."
+      }
+    ]
+  },
+  "research": [
+    {
+      "title": "PhD Researcher — LaSTI Lab",
+      "date": "Dec 2024 – Present",
+      "description": "Doctoral research in artificial intelligence and machine learning, in collaboration with academic and industry partners.",
+      "tags": ["Machine Learning", "AI Research", "Data Science"]
+    },
+    {
+      "title": "Teaching Assistant",
+      "date": "Current",
+      "description": "Supporting undergraduate courses — leading lab sessions, grading, and holding office hours for students working through core computer science and AI material.",
+      "tags": ["Teaching", "Mentoring", "Computer Science"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full-Stack Developer — CHARITY, Burkina Faso",
+      "date": "Sep 2024 – Oct 2024",
+      "description": "Built a full-stack platform for a non-profit organization, working remotely with an international team.",
+      "tags": ["Spring Boot", "Bootstrap", "Remote Collaboration"],
+      "logo": "",
+      "photos": [],
+      "links": [
+        { "label": "Talk about this project", "url": "https://youtube.com/", "type": "video" }
+      ],
+      "certification": null
+    },
+    {
+      "title": "Research Intern — Oracle",
+      "date": "Feb 2024 – Sep 2024",
+      "description": "Research internship in AI and database optimization, working with enterprise-scale systems.",
+      "tags": ["AI", "Database Optimization", "Enterprise Systems"],
+      "logo": "",
+      "photos": [
+        "https://picsum.photos/seed/oracle1/600/400",
+        "https://picsum.photos/seed/oracle2/600/400",
+        "https://picsum.photos/seed/oracle3/600/400"
+      ],
+      "links": [],
+      "certification": {
+        "title": "Oracle Internship Certificate",
+        "issuer": "Oracle",
+        "driveUrl": ""
+      }
+    },
+    {
+      "title": "MyOCP App — OCP Group",
+      "date": "Jul 2024 – Aug 2024",
+      "description": "Built an e-commerce platform for inventory management and online purchases during a summer internship.",
+      "tags": ["Django", "Bootstrap", "JavaScript"],
+      "logo": "",
+      "photos": [],
+      "links": [],
+      "certification": null
+    },
+    {
+      "title": "Phos-Predict-AI — OCP Group",
+      "date": "2023",
+      "description": "Built a revenue-prediction platform for Office Chérifien des Phosphates.",
+      "tags": ["Flask", "Bootstrap", "Data Science"],
+      "logo": "",
+      "photos": [],
+      "links": [],
+      "certification": null
+    },
+    {
+      "title": "Sales Training Program — Kodland UK",
+      "date": "Sep 2022",
+      "description": "Remote internship focused on tech sales and customer relations.",
+      "tags": ["Sales", "Customer Relations"],
+      "logo": "",
+      "photos": [],
+      "links": [],
+      "certification": null
+    }
+  ],
+  "activities": [
+    {
+      "title": "MDS Talks — Team Leader, Season 2",
+      "date": "Nov 2024 – Feb 2025",
+      "description": "Led a team organizing masterclasses on tech trends and personal development; co-presented a talk on data storytelling."
+    },
+    {
+      "title": "Vice Chief of Conference — Open Source Days 12.0",
+      "date": "Oct 2023 – Apr 2024",
+      "description": "Co-led the conference committee for a major regional tech event; previously served as English host for OSD 11.0."
+    },
+    {
+      "title": "Deputy Campus Director — Hult Prize, ENSA Khouribga",
+      "date": "Oct 2023 – Apr 2024",
+      "description": "Supported campus operations and student entrepreneurship initiatives."
+    },
+    {
+      "title": "Incubated Founder — FRTN Technologies",
+      "date": "2022",
+      "description": "Startup incubation program: business modeling, pitching, no-code landing pages, and entrepreneurial mindset training."
+    },
+    {
+      "title": "HULT Prize — 3rd Place, \"Aji l'Happiness Karma\"",
+      "date": "Year 1, ENSAK",
+      "description": "Team project on happiness-driven social entrepreneurship; certificate signed by Bill Clinton."
+    }
+  ],
+  "skills": {
+    "languages": ["Tamazight", "Arabic", "English", "French"],
+    "programming": ["Python", "Java", "JavaScript", "C", "C++", "PHP", "SQL", "HTML/CSS"],
+    "frameworks": ["Symfony", "Django", "Flask", "Spring Boot", "Bootstrap", "jQuery"]
+  },
+  "certifications": [
+    {
+      "title": "Écrivez du code Java maintenable avec MVC et SOLID",
+      "issuer": "OpenClassrooms",
+      "category": "Programming & Web Development",
+      "driveUrl": "https://drive.google.com/file/d/19rUR7jTUeCTD1p43_NcsB4NiABusMGKI/view?usp=sharing"
+    },
+    {
+      "title": "Concevez votre réseau TCP/IP",
+      "issuer": "OpenClassrooms",
+      "category": "Programming & Web Development",
+      "driveUrl": "https://drive.google.com/file/d/1QI00SPZ7Q4T_F7P9y_jc5DtzJSTfUOsc/view?usp=sharing"
+    },
+    {
+      "title": "Concevez votre site web avec PHP et MySQL",
+      "issuer": "OpenClassrooms",
+      "category": "Programming & Web Development",
+      "driveUrl": "https://drive.google.com/file/d/1aNzevh8tLO1aKgAaINuqloBVUfubKHaU/view?usp=sharing"
+    },
+    {
+      "title": "Apprenez les bases du langage Python",
+      "issuer": "OpenClassrooms",
+      "category": "Programming & Web Development",
+      "driveUrl": "https://drive.google.com/file/d/1pr800lP6MEnYeZFSMEiLPPMBEQHEYMZ_/view?usp=sharing"
+    },
+    {
+      "title": "UX Research",
+      "issuer": "Independent Study",
+      "category": "UI/UX Design",
+      "driveUrl": "https://drive.google.com/file/d/1ay-ZORZPVJbUUwn0UAHk-qiGOeBaEfia/view?usp=sharing"
+    },
+    {
+      "title": "UX Experience Design",
+      "issuer": "Independent Study",
+      "category": "UI/UX Design",
+      "driveUrl": "https://drive.google.com/file/d/1rIdjD4pXCAqlSpvRAEP9i9BAMR94b0G2/view?usp=sharing"
+    },
+    {
+      "title": "Programme d'incubation des entrepreneurs & Startup",
+      "issuer": "FRTN Technologies",
+      "category": "Business & Entrepreneurship",
+      "driveUrl": "https://drive.google.com/file/d/1mH_cGO74LJ2Zrw2jdn0dAPI1jixdisl1/view?usp=sharing"
+    },
+    {
+      "title": "Odyssées régionales de l'entrepreneuriat 2022",
+      "issuer": "CRI Béni Mellal-Khénifra",
+      "category": "Business & Entrepreneurship",
+      "driveUrl": "https://drive.google.com/file/d/1mCyvESLOEzjh8Xr4s5GNL681q2gFGVk6/view?usp=sharing"
+    }
+  ],
+  "contact": {
+    "heading": "Let's talk research, teaching, or the mountains",
+    "text": "Open to collaboration, guest talks, and anyone who wants to talk about AI, teaching, or good hiking trails.",
+    "email": "kaoutarsarsari@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kaoutar-sarsari",
+    "kilma": "https://kilma.app/@Kaoutar_Sarsari"
+  },
+  "closingNote": {
+    "photo": "",
+    "feedbackText": "Got feedback about this website? I'd genuinely love to hear it.",
+    "feedbackEmail": ""
+  }
+}

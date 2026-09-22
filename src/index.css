@@ -1,0 +1,625 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #EFF1EA;
+  --ink: #1F2421;
+  --paper: #FFFFFF;
+  --line: rgba(31, 36, 33, 0.12);
+  --accent: #4A6FA5;
+  --accent-2: #B9C7D6;
+  --ridge-1: #C9D2D8;
+  --ridge-2: #9FB0BB;
+  --ridge-3: #6D8494;
+}
+
+[data-season='winter'] {
+  --bg: #EEF2F5;
+  --accent: #4A6FA5;
+  --accent-2: #B9C7D6;
+  --ridge-1: #DCE6EC;
+  --ridge-2: #A9BECB;
+  --ridge-3: #5C7A99;
+}
+[data-season='spring'] {
+  --bg: #F0F3EB;
+  --accent: #6B8F5E;
+  --accent-2: #D98CA3;
+  --ridge-1: #DCE7D3;
+  --ridge-2: #A9C29B;
+  --ridge-3: #6B8F5E;
+}
+[data-season='summer'] {
+  --bg: #F6F1E4;
+  --accent: #C98A2E;
+  --ridge-3: #C98A2E;
+  --ridge-1: #EEDFBB;
+  --ridge-2: #DCC08A;
+  --accent-2: #3F6E63;
+}
+[data-season='autumn'] {
+  --bg: #F3ECE2;
+  --accent: #A85C32;
+  --accent-2: #6E5039;
+  --ridge-1: #E7D5C3;
+  --ridge-2: #CBA57F;
+  --ridge-3: #8B5A3C;
+}
+
+/* ---------- Night mode: shared overrides ---------- */
+[data-mode='night'] {
+  --ink: #EDEFEA;
+  --paper: rgba(255, 255, 255, 0.045);
+  --line: rgba(237, 239, 234, 0.16);
+}
+
+[data-season='winter'][data-mode='night'] {
+  --bg: #0F161D;
+  --accent: #7FA8D9;
+  --accent-2: #3C4D5C;
+  --ridge-1: #1A2530;
+  --ridge-2: #22323F;
+  --ridge-3: #2E4655;
+}
+[data-season='spring'][data-mode='night'] {
+  --bg: #10160D;
+  --accent: #8FBF7E;
+  --accent-2: #B97690;
+  --ridge-1: #182015;
+  --ridge-2: #212C1B;
+  --ridge-3: #2B3B23;
+}
+[data-season='summer'][data-mode='night'] {
+  --bg: #171008;
+  --accent: #E0A94A;
+  --accent-2: #4F8478;
+  --ridge-1: #211809;
+  --ridge-2: #2D2110;
+  --ridge-3: #3A2A12;
+}
+[data-season='autumn'][data-mode='night'] {
+  --bg: #150F09;
+  --accent: #C97A4E;
+  --accent-2: #6E5039;
+  --ridge-1: #1F1710;
+  --ridge-2: #2A1F15;
+  --ridge-3: #38281A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  transition: background 900ms ease;
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: white;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.font-display {
+  font-family: 'Fraunces', serif;
+}
+
+.font-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.bg-accent {
+  background: var(--accent);
+}
+
+.section-label {
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: var(--accent);
+}
+
+.trail-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--bg), 0 0 0 5px var(--line);
+}
+
+.trail-line {
+  width: 2px;
+  background: var(--line);
+}
+
+/* Particles */
+.particle-field {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  top: -5%;
+  will-change: transform;
+}
+
+@keyframes fall-drift {
+  0% {
+    transform: translateY(-10vh) translateX(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(110vh) translateX(var(--drift, 20px)) rotate(180deg);
+  }
+}
+
+@keyframes shimmer-rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-40px) scale(1.3);
+    opacity: 0;
+  }
+}
+
+/* ---------- Reveal on scroll ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 700ms ease, transform 700ms ease;
+}
+.reveal-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---------- Hover motion ---------- */
+.card-hover {
+  transition: transform 300ms ease, box-shadow 300ms ease, border-color 300ms ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px -18px rgba(31, 36, 33, 0.35);
+}
+
+.img-zoom img {
+  transition: transform 400ms ease;
+}
+.img-zoom:hover img {
+  transform: scale(1.12);
+}
+
+.link-arrow .arrow {
+  display: inline-block;
+  transition: transform 250ms ease;
+}
+.link-arrow:hover .arrow {
+  transform: translateX(4px);
+}
+
+.link-chip:hover {
+  transform: translateY(-2px);
+}
+
+.cert-badge {
+  transition: transform 250ms ease, filter 250ms ease;
+}
+.cert-badge:hover {
+  transform: translateY(-2px) scale(1.03);
+  filter: brightness(1.08);
+}
+
+.timeline-item .trail-dot {
+  transition: transform 300ms ease;
+}
+.timeline-item:hover .trail-dot {
+  transform: scale(1.4);
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-fadein {
+  animation: fadein 200ms ease;
+}
+
+/* ---------- News ticker ---------- */
+.ticker-track {
+  animation: ticker 28s linear infinite;
+}
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* ---------- Cursor trail ---------- */
+.cursor-particle {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
+  animation: cursor-fade 900ms ease-out forwards;
+}
+@keyframes cursor-fade {
+  0% { opacity: 0.9; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -120%) scale(0.5); }
+}
+
+/* ---------- Weather overlay ---------- */
+.weather-overlay {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.sun-glow {
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 420px;
+  height: 420px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(201, 138, 46, 0.35), transparent 70%);
+  animation: pulse-glow 6s ease-in-out infinite;
+}
+@keyframes pulse-glow {
+  0%, 100% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 1; }
+}
+
+.sun-rays {
+  position: absolute;
+  top: -50%;
+  right: -30%;
+  width: 700px;
+  height: 700px;
+  background: conic-gradient(from 0deg, transparent 0deg, rgba(201,138,46,0.12) 8deg, transparent 16deg, transparent 40deg, rgba(201,138,46,0.10) 48deg, transparent 56deg, transparent 90deg, rgba(201,138,46,0.12) 98deg, transparent 106deg);
+  animation: rotate-rays 40s linear infinite;
+}
+@keyframes rotate-rays {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.fog-layer {
+  position: absolute;
+  left: -20%;
+  width: 140%;
+  height: 60px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.55), transparent);
+  filter: blur(6px);
+  animation: drift-fog 22s linear infinite;
+}
+.fog-1 { top: 20%; animation-duration: 26s; }
+.fog-2 { top: 55%; animation-duration: 34s; animation-delay: -8s; opacity: 0.7; }
+@keyframes drift-fog {
+  from { transform: translateX(-10%); }
+  to { transform: translateX(10%); }
+}
+
+.rain-field {
+  z-index: 0;
+}
+.rain-drop {
+  position: absolute;
+  top: -5%;
+  width: 1px;
+  height: 16px;
+  background: linear-gradient(to bottom, transparent, rgba(107, 143, 94, 0.5));
+  animation: rain-fall 1s linear infinite;
+}
+@keyframes rain-fall {
+  from { transform: translateY(-5vh); opacity: 0.8; }
+  to { transform: translateY(60vh); opacity: 0; }
+}
+
+.gust-tint {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 40%, rgba(168, 92, 50, 0.06) 50%, transparent 60%);
+  animation: gust-sweep 8s ease-in-out infinite;
+}
+@keyframes gust-sweep {
+  0%, 100% { transform: translateX(-20%); }
+  50% { transform: translateX(20%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .particle,
+  .reveal,
+  .card-hover,
+  .cursor-particle,
+  .ticker-track,
+  .sun-glow,
+  .sun-rays,
+  .fog-layer,
+  .rain-drop,
+  .gust-tint {
+    animation: none !important;
+    transition: none !important;
+  }
+  .particle,
+  .cursor-particle {
+    display: none;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ---------- Nav ---------- */
+.nav-link {
+  position: relative;
+  transition: color 250ms ease;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 1.5px;
+  background: var(--accent);
+  transition: width 250ms ease;
+}
+.nav-link:hover {
+  color: var(--accent);
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.btn-live {
+  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
+}
+.btn-live:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px -10px rgba(31, 36, 33, 0.4);
+}
+.btn-live:active {
+  transform: translateY(0) scale(0.97);
+}
+
+/* ---------- Living trail markers ---------- */
+@keyframes trail-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+.trail-dot {
+  animation: trail-float 3.4s ease-in-out infinite;
+}
+
+/* ---------- Card tilt on hover (overrides earlier simpler lift) ---------- */
+.card-hover:hover {
+  transform: translateY(-5px) rotate(-0.35deg);
+  box-shadow: 0 16px 34px -18px rgba(31, 36, 33, 0.4);
+}
+
+/* ---------- Living mountains ---------- */
+@keyframes ridge-breathe {
+  0%, 100% { transform: translateY(0) scaleY(1); }
+  50% { transform: translateY(-2px) scaleY(1.01); }
+}
+.mountain-divider svg polygon:nth-child(1) { animation: ridge-breathe 9s ease-in-out infinite; transform-origin: bottom; }
+.mountain-divider svg polygon:nth-child(2) { animation: ridge-breathe 7s ease-in-out infinite -1.5s; transform-origin: bottom; }
+.mountain-divider svg polygon:nth-child(3) { animation: ridge-breathe 5s ease-in-out infinite -3s; transform-origin: bottom; }
+
+/* ---------- Hero entrance ---------- */
+@keyframes hero-rise {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hero-rise > * {
+  animation: hero-rise 800ms ease both;
+}
+.hero-rise > *:nth-child(1) { animation-delay: 0ms; }
+.hero-rise > *:nth-child(2) { animation-delay: 90ms; }
+.hero-rise > *:nth-child(3) { animation-delay: 180ms; }
+.hero-rise > *:nth-child(4) { animation-delay: 270ms; }
+.hero-rise > *:nth-child(5) { animation-delay: 360ms; }
+.hero-rise > *:nth-child(6) { animation-delay: 450ms; }
+
+/* ---------- Season toggle bounce (admin) ---------- */
+.season-btn {
+  transition: transform 200ms ease;
+}
+.season-btn:hover {
+  transform: scale(1.15) rotate(-6deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .trail-dot,
+  .mountain-divider svg polygon,
+  .hero-rise > * {
+    animation: none !important;
+  }
+  .hero-rise > * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* ---------- Night sky ---------- */
+.star {
+  position: absolute;
+  border-radius: 999px;
+  background: white;
+  animation: twinkle 3s ease-in-out infinite;
+}
+@keyframes twinkle {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.9; }
+}
+.moon-glow {
+  position: absolute;
+  top: -10%;
+  right: -8%;
+  width: 260px;
+  height: 260px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(230, 236, 245, 0.5), transparent 70%);
+}
+.moon-disc {
+  position: absolute;
+  top: 4%;
+  right: 8%;
+  width: 64px;
+  height: 64px;
+  border-radius: 999px;
+  background: #E9EDF3;
+  box-shadow: -14px 0 0 -2px var(--bg), 0 0 30px rgba(230, 236, 245, 0.5);
+}
+
+.mode-toggle {
+  transition: transform 250ms ease;
+}
+.mode-toggle:hover {
+  transform: rotate(-14deg) scale(1.1);
+}
+
+/* ---------- Hero portrait ---------- */
+.hero-photo {
+  border-radius: 42% 58% 63% 37% / 41% 44% 56% 59%;
+  transition: border-radius 6s ease-in-out;
+  animation: blob-float 8s ease-in-out infinite;
+}
+@keyframes blob-float {
+  0%, 100% { border-radius: 42% 58% 63% 37% / 41% 44% 56% 59%; transform: translateY(0); }
+  50% { border-radius: 58% 42% 37% 63% / 55% 60% 40% 45%; transform: translateY(-8px); }
+}
+
+/* ---------- Nature scene ---------- */
+.nature-scene {
+  position: relative;
+  height: 90px;
+  overflow: hidden;
+}
+.nature-river {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.river-shimmer {
+  animation: river-flow 6s linear infinite;
+}
+@keyframes river-flow {
+  from { stroke-dashoffset: 0; }
+  to { stroke-dashoffset: -40; }
+}
+.bird-fly {
+  position: absolute;
+  top: 20%;
+  font-size: 18px;
+  animation: bird-cross 18s linear infinite;
+}
+@keyframes bird-cross {
+  0% { left: -5%; transform: translateY(0) scaleX(1); }
+  48% { transform: translateY(-10px) scaleX(1); }
+  50% { left: 50%; }
+  100% { left: 105%; transform: translateY(4px) scaleX(1); }
+}
+.shooting-star {
+  position: absolute;
+  top: 10%;
+  left: -5%;
+  width: 3px;
+  height: 3px;
+  background: white;
+  border-radius: 999px;
+  box-shadow: 0 0 8px 2px rgba(255,255,255,0.8);
+  animation: shoot 7s ease-in infinite;
+}
+@keyframes shoot {
+  0% { transform: translate(0, 0); opacity: 0; }
+  5% { opacity: 1; }
+  20% { transform: translate(220px, 90px); opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .star, .mode-toggle, .hero-photo, .river-shimmer, .bird-fly, .shooting-star {
+    animation: none !important;
+  }
+}
+
+/* ---------- Sound toggle ---------- */
+.sound-toggle {
+  transition: transform 220ms ease;
+}
+.sound-toggle:hover {
+  transform: scale(1.15);
+}
+.sound-toggle[aria-pressed='true'] {
+  animation: sound-pulse 2.4s ease-in-out infinite;
+}
+@keyframes sound-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sound-toggle, .sound-toggle[aria-pressed='true'] {
+    animation: none !important;
+  }
+}
+
+/* ---------- Playful text motion on hover ---------- */
+.text-live {
+  transition: transform 280ms ease, letter-spacing 280ms ease;
+}
+.text-live:hover {
+  transform: translateY(-2px) scale(1.015);
+  letter-spacing: 0.4px;
+}
+
+.logo-mark {
+  display: inline-block;
+  transition: transform 280ms ease;
+}
+.logo-mark:hover {
+  transform: scale(1.08) rotate(-2deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .text-live, .logo-mark {
+    transition: none !important;
+  }
+}
+
+/* ---------- Fixed light backing for images ---------- */
+/* Many photos and especially logo PNGs have transparent backgrounds designed to sit
+   on a light backdrop. In night mode the page behind them turns dark, so anything
+   transparent in the image (or dark artwork within it) can disappear or look wrong.
+   This gives those images a small, always-light backing regardless of season/mode,
+   so they stay legible no matter what. */
+.img-safe {
+  background: #F5F2EC;
+}
