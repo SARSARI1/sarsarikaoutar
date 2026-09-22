@@ -14,11 +14,11 @@
     "linkedin": "https://www.linkedin.com/in/kaoutar-sarsari",
     "kilma": "https://kilma.app/@Kaoutar_Sarsari",
     "cvUrl": "/kaoutar_sarsari.pdf",
-    "photo": "/images/about/ks3.png",
+    "photo": "/sarsarikaoutar/images/about/ks3.png",
     "motto": "\"Do not lose hope, nor be sad\"  — Quran 3:139"
   },
   "about": {
-    "intro": "I am a first-year PhD researcher and teaching assistant at the National School of Applied Sciences (ENSA) of Khouribga, Sultan Moulay Slimane University, conducting my research at the LaSTI Laboratory under the supervision of Professor Nouredine Gherabi. My doctoral research focuses on the intersection of artificial intelligence, machine learning, and databases, and is generously supported by a CNRST scholarship. Before transitioning to full-time research, I trained as a software engineer—a background that still shapes how I approach problems today: rigorous about theoretical ideas, yet practical about building robust systems.",
+    "intro": "I am a second-year PhD researcher and teaching assistant at the National School of Applied Sciences (ENSA) of Khouribga, Sultan Moulay Slimane University, conducting my research at the LaSTI Laboratory under the supervision of Professor Nouredine Gherabi. My doctoral research focuses on the intersection of artificial intelligence, machine learning, and databases, and is generously supported by a CNRST scholarship. Before transitioning to full-time research, I trained as a software engineer—a background that still shapes how I approach problems today: rigorous about theoretical ideas, yet practical about building robust systems.",
     "philosophyTitle": "Be like an onion ",
     "philosophy": "A Berber proverb my family raised me on: be like an onion — it keeps growing in almost any condition, even without soil. That's how I try to learn: in the lab, in the classroom, and in whatever new field pulls my curiosity next.",
     "timeline": [
@@ -27,10 +27,10 @@
         "title": "PhD Researcher & Teaching Assistant",
         "text": "LaSTI Lab, ENSA Khouribga, USMS (Sponsored by a CNRST scholarship)",
         "photos": [
-          "/images/school/lasti.png",
-          "/images/school/ensa.png",
-          "/images/school/usms.png",
-          "/images/school/cnrst.png"
+          "/sarsarikaoutar/images/school/lasti.png",
+          "/sarsarikaoutar/images/school/ensa.png",
+          "/sarsarikaoutar/images/school/usms.png",
+          "/sarsarikaoutar/images/school/cnrst.png"
         ]
       },
       {
@@ -38,10 +38,10 @@
         "title": "State Engineering Degree in Computer Science and Engineering",
         "text": "National School of Applied Sciences of Khouribga (ENSA Khouribga) – Good (Honors)",
         "photos": [
-          "/images/school/ensa/graduation4.png",
-          "/images/school/ensa/graduation1.png",
-          "/images/school/ensa/graduation2.png",
-          "/images/school/ensa/graduation3.png"
+          "/sarsarikaoutar/images/school/ensa/graduation4.png",
+          "/sarsarikaoutar/images/school/ensa/graduation1.png",
+          "/sarsarikaoutar/images/school/ensa/graduation2.png",
+          "/sarsarikaoutar/images/school/ensa/graduation3.png"
         ]
       },
       {
@@ -49,12 +49,12 @@
         "title": "Baccalaureate in Physical Sciences",
         "text": "Imam Ali Agouim High School, Ouarzazate – Very Good (Highest Honors)",
         "photos": [
-          "/images/school/imam/imam1.png",
-          "/images/school/imam/imam2.png"
+          "/sarsarikaoutar/images/school/imam/imam1.png",
+          "/sarsarikaoutar/images/school/imam/imam2.png"
         ]
       }
     ],
-    "philosophyPhoto": "/images/about/onion.png"
+    "philosophyPhoto": "/sarsarikaoutar/images/about/onion.png"
   },
   "research": [
     {
@@ -79,7 +79,7 @@
         }
       ],
       "photos": [],
-      "logo": "/images/school/lasti.png"
+      "logo": "/sarsarikaoutar/images/school/lasti.png"
     },
     {
       "title": "Teaching Assistant",
@@ -91,9 +91,9 @@
         "Computer Science"
       ],
       "photos": [
-        "/images/students/gi1-2026.png"
+        "/sarsarikaoutar/images/students/gi1-2026.png"
       ],
-      "logo": "/images/school/ensa.png"
+      "logo": "/sarsarikaoutar/images/school/ensa.png"
     }
   ],
   "experience": [
@@ -109,18 +109,18 @@
         "APEX"
       ],
       "photos": [
-        "/images/work/oracle/oracle1.png",
-        "/images/work/oracle/oracle2.png",
-        "/images/work/oracle/oracle3.png",
-        "/images/work/oracle/oracle4.png",
-        "/images/work/oracle/oracle5.png",
-        "/images/work/oracle/oracle6.png",
-        "/images/work/oracle/oracle7.png",
-        "/images/work/oracle/oracle8.png",
-        "/images/work/oracle/oracle9.png",
-        "/images/work/oracle/oracle10.png"
+        "/sarsarikaoutar/images/work/oracle/oracle1.png",
+        "/sarsarikaoutar/images/work/oracle/oracle2.png",
+        "/sarsarikaoutar/images/work/oracle/oracle3.png",
+        "/sarsarikaoutar/images/work/oracle/oracle4.png",
+        "/sarsarikaoutar/images/work/oracle/oracle5.png",
+        "/sarsarikaoutar/images/work/oracle/oracle6.png",
+        "/sarsarikaoutar/images/work/oracle/oracle7.png",
+        "/sarsarikaoutar/images/work/oracle/oracle8.png",
+        "/sarsarikaoutar/images/work/oracle/oracle9.png",
+        "/sarsarikaoutar/images/work/oracle/oracle10.png"
       ],
-      "logo": "/images/work/oracle/oracle.png"
+      "logo": "/sarsarikaoutar/images/work/oracle/oracle.png"
     },
     {
       "title": "Full Stack Developer",
@@ -131,7 +131,7 @@
         "Bootstrap",
         "Remote Collaboration"
       ],
-      "logo": "/images/work/charity/charity.png",
+      "logo": "/sarsarikaoutar/images/work/charity/charity.png",
       "photos": [],
       "links": [],
       "certification": null
@@ -145,11 +145,11 @@
         "Bootstrap",
         "JavaScript"
       ],
-      "logo": "/images/work/myocp/myocp0.png",
+      "logo": "/sarsarikaoutar/images/work/myocp/myocp0.png",
       "photos": [
-        "/images/work/myocp/myocp1.png",
-        "/images/work/myocp/myocp2.png",
-        "/images/work/myocp/myocp3.png"
+        "/sarsarikaoutar/images/work/myocp/myocp1.png",
+        "/sarsarikaoutar/images/work/myocp/myocp2.png",
+        "/sarsarikaoutar/images/work/myocp/myocp3.png"
       ],
       "links": [],
       "certification": null
@@ -163,9 +163,9 @@
         "Bootstrap",
         "JS"
       ],
-      "logo": "/images/work/ocp/ocp.png",
+      "logo": "/sarsarikaoutar/images/work/ocp/ocp.png",
       "photos": [
-        "/images/work/ocp/ocp1.png"
+        "/sarsarikaoutar/images/work/ocp/ocp1.png"
       ],
       "links": [],
       "certification": null
@@ -177,13 +177,13 @@
       "date": "December 10, 2025",
       "description": "I had the opportunity to present my conference. WhereI shared my insights on \"IT world: expectations vs reality\", based on my internship and early career experience. I truly hope it brought clarity and helped the students who attended.",
       "tags": [],
-      "logo": "/images/activities/technobridge/technobridge0.png",
+      "logo": "/sarsarikaoutar/images/activities/technobridge/technobridge0.png",
       "photos": [
-        "/images/activities/technobridge/technobridge5.png",
-        "/images/activities/technobridge/technobridge1.png",
-        "/images/activities/technobridge/technobridge2.png",
-        "/images/activities/technobridge/technobridge3.png",
-        "/images/activities/technobridge/technobridge4.png"
+        "/sarsarikaoutar/images/activities/technobridge/technobridge5.png",
+        "/sarsarikaoutar/images/activities/technobridge/technobridge1.png",
+        "/sarsarikaoutar/images/activities/technobridge/technobridge2.png",
+        "/sarsarikaoutar/images/activities/technobridge/technobridge3.png",
+        "/sarsarikaoutar/images/activities/technobridge/technobridge4.png"
       ],
       "links": [],
       "certification": null
@@ -193,13 +193,13 @@
       "date": "Jan 2026",
       "description": "At Open Source Days 14.0 : Cloud in the Age of AI, I had the privilege of moderating a roundtable alongside Yasser Ettoumi , soukaina bentalia, and Mohamed Malainine Mohammed Chakour sharing our journey with the next generation of students felt both nostalgic and profoundly rewarding .",
       "tags": [],
-      "logo": "/images/activities/os/2025/os0.png",
+      "logo": "/sarsarikaoutar/images/activities/os/2025/os0.png",
       "photos": [
-        "/images/activities/os/2025/os1.png",
-        "/images/activities/os/2025/os2.png",
-        "/images/activities/os/2025/os3.png",
-        "/images/activities/os/2025/os4.png",
-        "/images/activities/os/2025/os5.png"
+        "/sarsarikaoutar/images/activities/os/2025/os1.png",
+        "/sarsarikaoutar/images/activities/os/2025/os2.png",
+        "/sarsarikaoutar/images/activities/os/2025/os3.png",
+        "/sarsarikaoutar/images/activities/os/2025/os4.png",
+        "/sarsarikaoutar/images/activities/os/2025/os5.png"
       ],
       "links": [],
       "certification": null
@@ -209,13 +209,13 @@
       "date": "December 22, 2024",
       "description": "I was invited by OCP Group Skills & Association Maher to speak at a seminar on Social Entrepreneurship . I had the privilege of delivering a speech titled \"El Chabbi: From Poverty to a Legacy,\" where I shared the inspiring journey of Miloud Chabbi, from humble beginnings to becoming one of Morocco’s leading entrepreneurs.",
       "tags": [],
-      "logo": "/images/activities/ocpskills/ocpskills0.png",
+      "logo": "/sarsarikaoutar/images/activities/ocpskills/ocpskills0.png",
       "photos": [
-        "/images/activities/ocpskills/ocpskills1.png",
-        "/images/activities/ocpskills/ocpskills2.png",
-        "/images/activities/ocpskills/ocpskills3.png",
-        "/images/activities/ocpskills/ocpskills4.png",
-        "/images/activities/ocpskills/ocpskills5.png"
+        "/sarsarikaoutar/images/activities/ocpskills/ocpskills1.png",
+        "/sarsarikaoutar/images/activities/ocpskills/ocpskills2.png",
+        "/sarsarikaoutar/images/activities/ocpskills/ocpskills3.png",
+        "/sarsarikaoutar/images/activities/ocpskills/ocpskills4.png",
+        "/sarsarikaoutar/images/activities/ocpskills/ocpskills5.png"
       ],
       "links": [],
       "certification": null
@@ -225,10 +225,10 @@
       "date": "Nov 2024 - Feb 2025",
       "description": "As Team Leader for MDS Talks Season 2, I organized masterclass sessions and led a talented team including Mohannad Tazi, Asmae El-Ghezzaz, and Bahae Eddine Halim. Our sessions featured industry experts discussing tech trends and personal development.",
       "tags": [],
-      "logo": "/images/activities/mds/mdsc0.png",
+      "logo": "/sarsarikaoutar/images/activities/mds/mdsc0.png",
       "photos": [
-        "/images/activities/mds/mds0.png",
-        "/images/activities/mds/mds2.png"
+        "/sarsarikaoutar/images/activities/mds/mds0.png",
+        "/sarsarikaoutar/images/activities/mds/mds2.png"
       ],
       "links": [
         {
@@ -314,12 +314,12 @@
       "date": "Oct 2023 - Apr 2024",
       "description": "Co-led the conference committee for this major tech event, organizing and finding talks, workshops, and guest speakers to invite to the panels.   ",
       "tags": [],
-      "logo": "/images/activities/os/2024/os.png",
+      "logo": "/sarsarikaoutar/images/activities/os/2024/os.png",
       "photos": [
-        "/images/activities/os/2024/os0.png",
-        "/images/activities/os/2024/os1.png",
-        "/images/activities/os/2024/os2.png",
-        "/images/activities/os/2024/os3.png"
+        "/sarsarikaoutar/images/activities/os/2024/os0.png",
+        "/sarsarikaoutar/images/activities/os/2024/os1.png",
+        "/sarsarikaoutar/images/activities/os/2024/os2.png",
+        "/sarsarikaoutar/images/activities/os/2024/os3.png"
       ],
       "links": [],
       "certification": {
@@ -333,12 +333,12 @@
       "date": "May 8–9, 2023",
       "description": "I was thrilled and honored to act as the host who presented the opening ceremony for this open-source event.",
       "tags": [],
-      "logo": "/images/activities/os/2023/os.png",
+      "logo": "/sarsarikaoutar/images/activities/os/2023/os.png",
       "photos": [
-        "/images/activities/os/2023/os0.png",
-        "/images/activities/os/2023/os1.png",
-        "/images/activities/os/2023/os2.png",
-        "/images/activities/os/2023/os3.png"
+        "/sarsarikaoutar/images/activities/os/2023/os0.png",
+        "/sarsarikaoutar/images/activities/os/2023/os1.png",
+        "/sarsarikaoutar/images/activities/os/2023/os2.png",
+        "/sarsarikaoutar/images/activities/os/2023/os3.png"
       ],
       "links": [],
       "certification": null
@@ -348,9 +348,9 @@
       "date": "Apr 2024 - Jun 2024",
       "description": "Created visual content and branding materials for Moroccan Data Scientists (MDS) Talks as a volunteer member.",
       "tags": [],
-      "logo": "/images/activities/mds/mdsc0.png",
+      "logo": "/sarsarikaoutar/images/activities/mds/mdsc0.png",
       "photos": [
-        "/images/activities/mds/mdsc1.png"
+        "/sarsarikaoutar/images/activities/mds/mdsc1.png"
       ],
       "links": [],
       "certification": null
@@ -360,17 +360,17 @@
       "date": "Oct 2023 - Apr 2024",
       "description": "Supported campus operations and student entrepreneurship initiatives as deputy director of the Hult Prize at ENSA Khouribga.",
       "tags": [],
-      "logo": "/images/activities/hultprize/2021/hp0.png",
+      "logo": "/sarsarikaoutar/images/activities/hultprize/2021/hp0.png",
       "photos": [
-        "/images/activities/hultprize/2023/hp2.png",
-        "/images/activities/hultprize/2023/hp4.png",
-        "/images/activities/hultprize/2023/hp5.png",
-        "/images/activities/hultprize/2023/hp6.png",
-        "/images/activities/hultprize/2023/hp7.png",
-        "/images/activities/hultprize/2023/hp8.png",
-        "/images/activities/hultprize/2023/hp9.png",
-        "/images/activities/hultprize/2023/hp10.png",
-        "/images/activities/hultprize/2023/hp11.png"
+        "/sarsarikaoutar/images/activities/hultprize/2023/hp2.png",
+        "/sarsarikaoutar/images/activities/hultprize/2023/hp4.png",
+        "/sarsarikaoutar/images/activities/hultprize/2023/hp5.png",
+        "/sarsarikaoutar/images/activities/hultprize/2023/hp6.png",
+        "/sarsarikaoutar/images/activities/hultprize/2023/hp7.png",
+        "/sarsarikaoutar/images/activities/hultprize/2023/hp8.png",
+        "/sarsarikaoutar/images/activities/hultprize/2023/hp9.png",
+        "/sarsarikaoutar/images/activities/hultprize/2023/hp10.png",
+        "/sarsarikaoutar/images/activities/hultprize/2023/hp11.png"
       ],
       "links": [],
       "certification": {
@@ -397,11 +397,11 @@
         "Landing Page",
         "NoCode"
       ],
-      "logo": "/images/activities/frtn/frtn0.png",
+      "logo": "/sarsarikaoutar/images/activities/frtn/frtn0.png",
       "photos": [
-        "/images/activities/frtn/frtn1.png",
-        "/images/activities/frtn/frtn2.png",
-        "/images/activities/frtn/frtn3.png"
+        "/sarsarikaoutar/images/activities/frtn/frtn1.png",
+        "/sarsarikaoutar/images/activities/frtn/frtn2.png",
+        "/sarsarikaoutar/images/activities/frtn/frtn3.png"
       ],
       "links": [
         {
@@ -424,12 +424,12 @@
         "Entrepreneurship",
         "Startup"
       ],
-      "logo": "/images/activities/or/or0.png",
+      "logo": "/sarsarikaoutar/images/activities/or/or0.png",
       "photos": [
-        "/images/activities/or/or1.png",
-        "/images/activities/or/or2.png",
-        "/images/activities/or/or3.png",
-        "/images/activities/or/or4.png"
+        "/sarsarikaoutar/images/activities/or/or1.png",
+        "/sarsarikaoutar/images/activities/or/or2.png",
+        "/sarsarikaoutar/images/activities/or/or3.png",
+        "/sarsarikaoutar/images/activities/or/or4.png"
       ],
       "links": [],
       "certification": {
@@ -446,14 +446,14 @@
         "Workshops",
         "Startup"
       ],
-      "logo": "/images/activities/hultprize/2021/hp0.png",
+      "logo": "/sarsarikaoutar/images/activities/hultprize/2021/hp0.png",
       "photos": [
-        "/images/activities/hultprize/2021/hp1.png",
-        "/images/activities/hultprize/2021/hp2.png",
-        "/images/activities/hultprize/2021/hp3.png",
-        "/images/activities/hultprize/2021/hp4.png",
-        "/images/activities/hultprize/2021/hp5.png",
-        "/images/activities/hultprize/2021/hp6.png"
+        "/sarsarikaoutar/images/activities/hultprize/2021/hp1.png",
+        "/sarsarikaoutar/images/activities/hultprize/2021/hp2.png",
+        "/sarsarikaoutar/images/activities/hultprize/2021/hp3.png",
+        "/sarsarikaoutar/images/activities/hultprize/2021/hp4.png",
+        "/sarsarikaoutar/images/activities/hultprize/2021/hp5.png",
+        "/sarsarikaoutar/images/activities/hultprize/2021/hp6.png"
       ],
       "links": [],
       "certification": {
@@ -551,13 +551,13 @@
       "date": "21–22 October 2026",
       "text": "Our lab is proud to organize ICCT 2026!  The conference spans eight major tracks from AI and robotics to renewable energy, green hydrogen, and cybersecurity. For more details, visit our website.",
       "link": "https://icct.ma/",
-      "image": "/images/news/icct.png"
+      "image": "/sarsarikaoutar/images/news/icct.png"
     }
   ],
   "articles": [],
   "closingNote": {
     "feedbackText": "I would love to hear from you. Your feedback is welcome!",
-    "photo": "/images/about/ks3.png",
+    "photo": "/sarsarikaoutar/images/about/ks3.png",
     "feedbackEmail": "kaoutarsarsari@gmail.com"
   }
 }
