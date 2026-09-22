@@ -1,175 +1,493 @@
 {
   "profile": {
-    "name": "Kaoutar Sarsari",
-    "initials": "KS",
-    "roles": ["PhD Researcher, AI & Machine Learning", "Teaching Assistant", "Software Engineer"],
+    "name": "I'm Kaoutar ...",
+    "initials": "kaoutar-sarsari",
+    "roles": [
+      "PhD Candidate",
+      "AI & Databases",
+      "Teaching Assistant",
+      "Software Engineer"
+    ],
     "tagline": "I study how machines learn, and I like teaching people the same thing.",
     "location": "Khouribga, Morocco — originally from Ouarzazate, at the gate of the Atlas Mountains",
     "email": "kaoutarsarsari@gmail.com",
     "linkedin": "https://www.linkedin.com/in/kaoutar-sarsari",
     "kilma": "https://kilma.app/@Kaoutar_Sarsari",
     "cvUrl": "/kaoutar_sarsari.pdf",
-    "photo": "/images/graduation.jpeg",
-    "motto": "Always be creative like cartoons, positive like protons.",
-    "visitorCounterPath": "sarsari1.github.io"
+    "photo": "/images/about/ks3.png",
+    "motto": "\"Do not lose hope, nor be sad\"  — Quran 3:139"
   },
-  "news": [
-    {
-      "date": "Aug 2026",
-      "text": "Gave this website a full seasonal redesign.",
-      "link": ""
-    },
-    {
-      "date": "Feb 2026",
-      "text": "Started leading lab sessions for the Machine Learning undergraduate course.",
-      "link": ""
-    },
-    {
-      "date": "Dec 2024",
-      "text": "Began my PhD in AI & Machine Learning at LaSTI Lab.",
-      "link": ""
-    }
-  ],
-  "articles": [
-    {
-      "title": "Add your first publication here",
-      "type": "Conference Paper",
-      "venue": "Name of the conference or journal",
-      "date": "2026",
-      "authors": "K. Sarsari, et al.",
-      "link": ""
-    }
-  ],
   "about": {
-    "intro": "I'm a first-year PhD researcher at LaSTI Lab, working on artificial intelligence and machine learning, and a teaching assistant supporting undergraduate courses. Before research, I trained as a software engineer — that mix still shapes how I work: rigorous about ideas, practical about building things.",
-    "philosophyTitle": "Be like an onion",
+    "intro": "I am a first-year PhD researcher and teaching assistant at the National School of Applied Sciences (ENSA) of Khouribga, Sultan Moulay Slimane University, conducting my research at the LaSTI Laboratory under the supervision of Professor Nouredine Gherabi. My doctoral research focuses on the intersection of artificial intelligence, machine learning, and databases, and is generously supported by a CNRST scholarship. Before transitioning to full-time research, I trained as a software engineer—a background that still shapes how I approach problems today: rigorous about theoretical ideas, yet practical about building robust systems.",
+    "philosophyTitle": "Be like an onion ",
     "philosophy": "A Berber proverb my family raised me on: be like an onion — it keeps growing in almost any condition, even without soil. That's how I try to learn: in the lab, in the classroom, and in whatever new field pulls my curiosity next.",
-    "philosophyPhoto": "/images/onion-philosophy.png",
     "timeline": [
       {
-        "years": "Kindergarten – 2020",
-        "title": "Imam Ali High School, Ouarzazate",
-        "text": "Graduated with honors in physical sciences."
+        "years": "Dec 2025 – Present",
+        "title": "PhD Researcher & Teaching Assistant",
+        "text": "LaSTI Lab, ENSA Khouribga, USMS (Sponsored by a CNRST scholarship)",
+        "photos": [
+          "/images/school/lasti.png",
+          "/images/school/ensa.png",
+          "/images/school/usms.png",
+          "/images/school/cnrst.png"
+        ]
       },
       {
-        "years": "2020 – 2025",
-        "title": "ENSAK — National School of Applied Sciences, Khouribga",
-        "text": "Computer science degree, graduated with honors in Software Engineering."
+        "years": "Dec 2020 – 2025",
+        "title": "State Engineering Degree in Computer Science and Engineering",
+        "text": "National School of Applied Sciences of Khouribga (ENSA Khouribga) – Good (Honors)",
+        "photos": [
+          "/images/school/ensa/graduation4.png",
+          "/images/school/ensa/graduation1.png",
+          "/images/school/ensa/graduation2.png",
+          "/images/school/ensa/graduation3.png"
+        ]
       },
       {
-        "years": "Dec 2024 – Present",
-        "title": "PhD in AI & Machine Learning, LaSTI Lab",
-        "text": "First-year doctoral researcher, working with academic and industry partners."
+        "years": "Dec 2018 – 2020",
+        "title": "Baccalaureate in Physical Sciences",
+        "text": "Imam Ali Agouim High School, Ouarzazate – Very Good (Highest Honors)",
+        "photos": [
+          "/images/school/imam/imam1.png",
+          "/images/school/imam/imam2.png"
+        ]
       }
-    ]
+    ],
+    "philosophyPhoto": "/images/about/onion.png"
   },
   "research": [
     {
       "title": "PhD Researcher — LaSTI Lab",
-      "date": "Dec 2024 – Present",
-      "description": "Doctoral research in artificial intelligence and machine learning, in collaboration with academic and industry partners.",
-      "tags": ["Machine Learning", "AI Research", "Data Science"]
+      "date": "Dec 2025 – Present",
+      "description": "Doctoral research in artificial intelligence and databases, in collaboration with academic and industry partners.",
+      "tags": [
+        "Machine Learning",
+        "AI Research",
+        "Databases"
+      ],
+      "links": [
+        {
+          "label": "Github",
+          "url": "https://github.com/SARSARI1",
+          "type": "github"
+        },
+        {
+          "label": "",
+          "url": "",
+          "type": "website"
+        }
+      ],
+      "photos": [],
+      "logo": "/images/school/lasti.png"
     },
     {
       "title": "Teaching Assistant",
-      "date": "Current",
-      "description": "Supporting undergraduate courses — leading lab sessions, grading, and holding office hours for students working through core computer science and AI material.",
-      "tags": ["Teaching", "Mentoring", "Computer Science"]
+      "date": "Dec 2025 – Present",
+      "description": "Supporting undergraduate courses leading lab sessions, grading, and holding office hours for students working through core computer science and AI material.",
+      "tags": [
+        "Teaching",
+        "Mentoring",
+        "Computer Science"
+      ],
+      "photos": [
+        "/images/students/gi1-2026.png"
+      ],
+      "logo": "/images/school/ensa.png"
     }
   ],
   "experience": [
     {
-      "title": "Full-Stack Developer — CHARITY, Burkina Faso",
-      "date": "Sep 2024 – Oct 2024",
-      "description": "Built a full-stack platform for a non-profit organization, working remotely with an international team.",
-      "tags": ["Spring Boot", "Bootstrap", "Remote Collaboration"],
-      "logo": "",
-      "photos": [],
-      "links": [
-        { "label": "Talk about this project", "url": "https://youtube.com/", "type": "video" }
+      "title": "Research assistant — Oracle",
+      "date": "Feb 2025 – Sep 2025",
+      "description": "Worked as a Research Assistant with the TPLTA team at Oracle. Contributed to the improvement of the internal TPLTA platform and managed advanced licensed datasets using technologies such as APEX, PL/SQL, CSS, Liquibase, utPLSQL, OCI and XML.",
+      "tags": [
+        "OracleDB",
+        "PL/SQL",
+        "Liquibase",
+        "OCI",
+        "APEX"
       ],
-      "certification": null
-    },
-    {
-      "title": "Research Intern — Oracle",
-      "date": "Feb 2024 – Sep 2024",
-      "description": "Research internship in AI and database optimization, working with enterprise-scale systems.",
-      "tags": ["AI", "Database Optimization", "Enterprise Systems"],
-      "logo": "",
       "photos": [
-        "https://picsum.photos/seed/oracle1/600/400",
-        "https://picsum.photos/seed/oracle2/600/400",
-        "https://picsum.photos/seed/oracle3/600/400"
+        "/images/work/oracle/oracle1.png",
+        "/images/work/oracle/oracle2.png",
+        "/images/work/oracle/oracle3.png",
+        "/images/work/oracle/oracle4.png",
+        "/images/work/oracle/oracle5.png",
+        "/images/work/oracle/oracle6.png",
+        "/images/work/oracle/oracle7.png",
+        "/images/work/oracle/oracle8.png",
+        "/images/work/oracle/oracle9.png",
+        "/images/work/oracle/oracle10.png"
+      ],
+      "logo": "/images/work/oracle/oracle.png"
+    },
+    {
+      "title": "Full Stack Developer",
+      "date": "September 2024 - October 2024",
+      "description": "Developed full-stack solution for non-profit organization using SpringBoot and Bootstrap.\n\n",
+      "tags": [
+        "SpringBoot",
+        "Bootstrap",
+        "Remote Collaboration"
+      ],
+      "logo": "/images/work/charity/charity.png",
+      "photos": [],
+      "links": [],
+      "certification": null
+    },
+    {
+      "title": "Software Engineering Intern",
+      "date": "Jul 2024 - Aug 2024",
+      "description": "MyOCP App Development (OCP Group)\nOptimization and automation of the MyOCP reservation request processing workflow.\n\n",
+      "tags": [
+        "Django",
+        "Bootstrap",
+        "JavaScript"
+      ],
+      "logo": "/images/work/myocp/myocp0.png",
+      "photos": [
+        "/images/work/myocp/myocp1.png",
+        "/images/work/myocp/myocp2.png",
+        "/images/work/myocp/myocp3.png"
       ],
       "links": [],
-      "certification": {
-        "title": "Oracle Internship Certificate",
-        "issuer": "Oracle",
-        "driveUrl": ""
-      }
-    },
-    {
-      "title": "MyOCP App — OCP Group",
-      "date": "Jul 2024 – Aug 2024",
-      "description": "Built an e-commerce platform for inventory management and online purchases during a summer internship.",
-      "tags": ["Django", "Bootstrap", "JavaScript"],
-      "logo": "",
-      "photos": [],
-      "links": [],
       "certification": null
     },
     {
-      "title": "Phos-Predict-AI — OCP Group",
-      "date": "2023",
-      "description": "Built a revenue-prediction platform for Office Chérifien des Phosphates.",
-      "tags": ["Flask", "Bootstrap", "Data Science"],
-      "logo": "",
-      "photos": [],
-      "links": [],
-      "certification": null
-    },
-    {
-      "title": "Sales Training Program — Kodland UK",
-      "date": "Sep 2022",
-      "description": "Remote internship focused on tech sales and customer relations.",
-      "tags": ["Sales", "Customer Relations"],
-      "logo": "",
-      "photos": [],
+      "title": "Software Engineering Intern",
+      "date": "August 2023",
+      "description": "I have worked on developing Phos-Pridect-AI a software solution application using machine learning that calculates and predicts turnover for the OCP Group.",
+      "tags": [
+        "Flask",
+        "Bootstrap",
+        "JS"
+      ],
+      "logo": "/images/work/ocp/ocp.png",
+      "photos": [
+        "/images/work/ocp/ocp1.png"
+      ],
       "links": [],
       "certification": null
     }
   ],
   "activities": [
     {
-      "title": "MDS Talks — Team Leader, Season 2",
-      "date": "Nov 2024 – Feb 2025",
-      "description": "Led a team organizing masterclasses on tech trends and personal development; co-presented a talk on data storytelling."
+      "title": "TechnoBridge 2025",
+      "date": "December 10, 2025",
+      "description": "I had the opportunity to present my conference. WhereI shared my insights on \"IT world: expectations vs reality\", based on my internship and early career experience. I truly hope it brought clarity and helped the students who attended.",
+      "tags": [],
+      "logo": "/images/activities/technobridge/technobridge0.png",
+      "photos": [
+        "/images/activities/technobridge/technobridge5.png",
+        "/images/activities/technobridge/technobridge1.png",
+        "/images/activities/technobridge/technobridge2.png",
+        "/images/activities/technobridge/technobridge3.png",
+        "/images/activities/technobridge/technobridge4.png"
+      ],
+      "links": [],
+      "certification": null
     },
     {
-      "title": "Vice Chief of Conference — Open Source Days 12.0",
-      "date": "Oct 2023 – Apr 2024",
-      "description": "Co-led the conference committee for a major regional tech event; previously served as English host for OSD 11.0."
+      "title": "Open Source Days 14",
+      "date": "Jan 2026",
+      "description": "At Open Source Days 14.0 : Cloud in the Age of AI, I had the privilege of moderating a roundtable alongside Yasser Ettoumi , soukaina bentalia, and Mohamed Malainine Mohammed Chakour sharing our journey with the next generation of students felt both nostalgic and profoundly rewarding .",
+      "tags": [],
+      "logo": "/images/activities/os/2025/os0.png",
+      "photos": [
+        "/images/activities/os/2025/os1.png",
+        "/images/activities/os/2025/os2.png",
+        "/images/activities/os/2025/os3.png",
+        "/images/activities/os/2025/os4.png",
+        "/images/activities/os/2025/os5.png"
+      ],
+      "links": [],
+      "certification": null
     },
     {
-      "title": "Deputy Campus Director — Hult Prize, ENSA Khouribga",
-      "date": "Oct 2023 – Apr 2024",
-      "description": "Supported campus operations and student entrepreneurship initiatives."
+      "title": " Sawlat Event",
+      "date": "December 22, 2024",
+      "description": "I was invited by OCP Group Skills & Association Maher to speak at a seminar on Social Entrepreneurship . I had the privilege of delivering a speech titled \"El Chabbi: From Poverty to a Legacy,\" where I shared the inspiring journey of Miloud Chabbi, from humble beginnings to becoming one of Morocco’s leading entrepreneurs.",
+      "tags": [],
+      "logo": "/images/activities/ocpskills/ocpskills0.png",
+      "photos": [
+        "/images/activities/ocpskills/ocpskills1.png",
+        "/images/activities/ocpskills/ocpskills2.png",
+        "/images/activities/ocpskills/ocpskills3.png",
+        "/images/activities/ocpskills/ocpskills4.png",
+        "/images/activities/ocpskills/ocpskills5.png"
+      ],
+      "links": [],
+      "certification": null
     },
     {
-      "title": "Incubated Founder — FRTN Technologies",
-      "date": "2022",
-      "description": "Startup incubation program: business modeling, pitching, no-code landing pages, and entrepreneurial mindset training."
+      "title": "MDS Talks Team Leader",
+      "date": "Nov 2024 - Feb 2025",
+      "description": "As Team Leader for MDS Talks Season 2, I organized masterclass sessions and led a talented team including Mohannad Tazi, Asmae El-Ghezzaz, and Bahae Eddine Halim. Our sessions featured industry experts discussing tech trends and personal development.",
+      "tags": [],
+      "logo": "/images/activities/mds/mdsc0.png",
+      "photos": [
+        "/images/activities/mds/mds0.png",
+        "/images/activities/mds/mds2.png"
+      ],
+      "links": [
+        {
+          "label": "\"Multi-Objective Optimization\" By Zaid Ahmad Awan - MDS Talks",
+          "url": "https://www.youtube.com/live/2lD1nNDjMT0?si=bFmea4RjkypMj_kN",
+          "type": "video"
+        },
+        {
+          "label": "\"Mastering LLMs Performance\" by Mounsef LITNITI - MDS Talks",
+          "url": "https://www.youtube.com/live/O-02JrrS1C0?si=NV-4G7dWr9rIDhcr",
+          "type": "video"
+        },
+        {
+          "label": "\"From Prompts to Symphony: The Rise of Multi-Agent Systems in AI\" by ALI KHYATTI- MDS Talks",
+          "url": "https://www.youtube.com/live/fXVEWGeVjl8?si=lVkuuapugBpItn0M",
+          "type": "video"
+        },
+        {
+          "label": "\"How to start your career in AI in the era of Gen AI\" by Youssef Hosni - MDS Talks",
+          "url": "https://www.youtube.com/live/ZCG1h5HYuHc?si=dLsM6N0Ev6oma65p",
+          "type": "video"
+        },
+        {
+          "label": "Publish an ASP.NET Core web API to cloud azure API with Visual Studio by Said WAHID - MDS Talks",
+          "url": "https://www.youtube.com/live/HwPNA9kHp0s?si=VSLsK-k4cBK7_xHX",
+          "type": "video"
+        },
+        {
+          "label": "\"How Human Intelligence Can Humanize the Machine ?\" by Yahya Ibnu Al-Khatib - MDS Talks",
+          "url": "https://www.youtube.com/live/M3MkXqhd_Uk?si=HkehQo_KRMwwCj9P",
+          "type": "video"
+        },
+        {
+          "label": "\"AI's Role in Morocco's Public Service Digital Transformation\" by Mahfoudi Mohamed Amine - MDS Talks",
+          "url": "https://www.youtube.com/live/nY9vbgZbV7Q?si=xHsttIjN6Qae5pEg",
+          "type": "video"
+        },
+        {
+          "label": "\"How can we make a chatbot using Google Gemini?\" by SARA EL-ATEIF - MDS Talks",
+          "url": "https://www.youtube.com/live/9Y3kXE9J91o?si=x7GPK_ORS6nmxVnG",
+          "type": "video"
+        },
+        {
+          "label": "Empower your storytelling by Bahae Eddine Halim, Achraf Kabbouri and Kaoutar Sarsari - MDS Talks",
+          "url": "https://www.youtube.com/live/Bihrfgr8WcA?si=eiMy0n_eiZkp99uj",
+          "type": "video"
+        },
+        {
+          "label": "Highlights & Overview GITEX AFRICA - MDS Talks",
+          "url": "https://www.youtube.com/live/fCdNCkNygFU?si=sA4SlFWDGAYkdgB-",
+          "type": "video"
+        },
+        {
+          "label": "'Artificial Intelligence On The ChessBoard' by Tamer Karatekin - MDS Talks",
+          "url": "https://www.youtube.com/live/HF9OMo5jtX4?si=M9OD9L70IK-vrKSQ",
+          "type": "video"
+        },
+        {
+          "label": "\"AI Catalyzing Innovation and Growth\" with Mohamad Najem, Youssef Ghalem, and Bahae Eddine Halim",
+          "url": "https://www.youtube.com/live/JmaGGpRLliQ?si=2IaO3u8kOr-4CIkd",
+          "type": "video"
+        },
+        {
+          "label": "\"Designing Data-Driven Projects : The Art of Transforming Numbers into Narratives\" with Brahim baif",
+          "url": "https://www.youtube.com/live/RMR_Im8wjS8?si=kruCiVw7iU01o3gG",
+          "type": "video"
+        },
+        {
+          "label": "\"Harnessing LLMs for Good  A Path to Ethical AI\" with  Arthur Lambert and Simran Karnani",
+          "url": "https://www.youtube.com/live/1q0l8-yiHGE?si=k-Ufo1PMR7-PwR7W",
+          "type": "video"
+        },
+        {
+          "label": "",
+          "url": "https://www.youtube.com/live/igEfVQ5rJf0?si=iPbRBh2HZTZySxUt",
+          "type": "video"
+        }
+      ],
+      "certification": null
     },
     {
-      "title": "HULT Prize — 3rd Place, \"Aji l'Happiness Karma\"",
-      "date": "Year 1, ENSAK",
-      "description": "Team project on happiness-driven social entrepreneurship; certificate signed by Bill Clinton."
+      "title": "Vice Chief of Conference - Open Source Days 12.0",
+      "date": "Oct 2023 - Apr 2024",
+      "description": "Co-led the conference committee for this major tech event, organizing and finding talks, workshops, and guest speakers to invite to the panels.   ",
+      "tags": [],
+      "logo": "/images/activities/os/2024/os.png",
+      "photos": [
+        "/images/activities/os/2024/os0.png",
+        "/images/activities/os/2024/os1.png",
+        "/images/activities/os/2024/os2.png",
+        "/images/activities/os/2024/os3.png"
+      ],
+      "links": [],
+      "certification": {
+        "title": "Opensource days v12",
+        "issuer": "Opensource days v12",
+        "driveUrl": "https://drive.google.com/file/d/1Sha8eblq-VXllR5WHHt09G1Ll6-3itly/view?usp=sharing"
+      }
+    },
+    {
+      "title": "English host for OSD 11.0.",
+      "date": "May 8–9, 2023",
+      "description": "I was thrilled and honored to act as the host who presented the opening ceremony for this open-source event.",
+      "tags": [],
+      "logo": "/images/activities/os/2023/os.png",
+      "photos": [
+        "/images/activities/os/2023/os0.png",
+        "/images/activities/os/2023/os1.png",
+        "/images/activities/os/2023/os2.png",
+        "/images/activities/os/2023/os3.png"
+      ],
+      "links": [],
+      "certification": null
+    },
+    {
+      "title": "Graphic Designer for MDS Talks",
+      "date": "Apr 2024 - Jun 2024",
+      "description": "Created visual content and branding materials for Moroccan Data Scientists (MDS) Talks as a volunteer member.",
+      "tags": [],
+      "logo": "/images/activities/mds/mdsc0.png",
+      "photos": [
+        "/images/activities/mds/mdsc1.png"
+      ],
+      "links": [],
+      "certification": null
+    },
+    {
+      "title": "Deputy Campus Director - Hult Prize",
+      "date": "Oct 2023 - Apr 2024",
+      "description": "Supported campus operations and student entrepreneurship initiatives as deputy director of the Hult Prize at ENSA Khouribga.",
+      "tags": [],
+      "logo": "/images/activities/hultprize/2021/hp0.png",
+      "photos": [
+        "/images/activities/hultprize/2023/hp2.png",
+        "/images/activities/hultprize/2023/hp4.png",
+        "/images/activities/hultprize/2023/hp5.png",
+        "/images/activities/hultprize/2023/hp6.png",
+        "/images/activities/hultprize/2023/hp7.png",
+        "/images/activities/hultprize/2023/hp8.png",
+        "/images/activities/hultprize/2023/hp9.png",
+        "/images/activities/hultprize/2023/hp10.png",
+        "/images/activities/hultprize/2023/hp11.png"
+      ],
+      "links": [],
+      "certification": {
+        "title": "Hultprize OnCompus Programme",
+        "issuer": "Hultprize",
+        "driveUrl": "https://drive.google.com/file/d/1blz02afjnh3UxQbW4wWobaEqTRjGwkYR/view?usp=drive_link"
+      }
+    },
+    {
+      "title": "FRTN Technologies Incubation Program",
+      "date": "June 2022 - September 2022",
+      "description": "I was thrilled to be accepted into the FRTN Technologies Startup Incubation Program, an experience that deepened my passion for the startup world even more 🤍🤍.\n\nDuring this intensive program, I worked on developing my entrepreneurial mindset and business acumen. Key focus areas and accomplishments included:\n\nEntrepreneurial Incubation: Gained hands-on training in startup creation and scaling (Programme d'incubation des entrepreneurs & Startup).\n\nBusiness Strategy: Mastered the Business Model Canvas (BMC), Business Planning, Pitching, and building compelling Pitch Decks (including a 90-second fast pitch deck).\n\nProduct & Tech: Built landing pages utilizing NoCode tools and analyzed user traction and early adopters.\n\nProfessional Branding: Developed skills in personal branding, copywriting, and adopting an entrepreneurial mindset and vision.\n\nMarket Analysis: Studied failure cases and built a comprehensive glossary of startup terminology.\n\nThis experience significantly accelerated my growth in the business world, and my current goal is to keep learning, building, and developing these skills further! ",
+      "tags": [
+        "Market Analysis",
+        "Professional Branding",
+        "Product & Tech",
+        "Business Strategy",
+        "Entrepreneurial Incubation",
+        "BMC",
+        "Business Plan",
+        "Pitch",
+        "Pitch Deck",
+        "Traction et Early Adopters",
+        "Landing Page",
+        "NoCode"
+      ],
+      "logo": "/images/activities/frtn/frtn0.png",
+      "photos": [
+        "/images/activities/frtn/frtn1.png",
+        "/images/activities/frtn/frtn2.png",
+        "/images/activities/frtn/frtn3.png"
+      ],
+      "links": [
+        {
+          "label": "",
+          "url": "",
+          "type": "website"
+        }
+      ],
+      "certification": {
+        "title": "Entrepreneur and Startup Incubation Program",
+        "issuer": "FRTN Technologies",
+        "driveUrl": "https://drive.google.com/file/d/1mH_cGO74LJ2Zrw2jdn0dAPI1jixdisl1/view?usp=sharing"
+      }
+    },
+    {
+      "title": "Odyssées Régional",
+      "date": "April 2022",
+      "description": "During my second year, I decided to participate in the \"Odyssées Régionales\" at ENSAK. I worked with a wonderful team on the \"2ST\" project 🤍.\nDuring the 2ST project pitch, I even got the chance to meet more creative and wonderful people. For this project, we focused on smart vehicle safety technology, where we suggested an innovative system to help prevent car accidents.",
+      "tags": [
+        "Entrepreneurship",
+        "Startup"
+      ],
+      "logo": "/images/activities/or/or0.png",
+      "photos": [
+        "/images/activities/or/or1.png",
+        "/images/activities/or/or2.png",
+        "/images/activities/or/or3.png",
+        "/images/activities/or/or4.png"
+      ],
+      "links": [],
+      "certification": {
+        "title": "2022 Regional Entrepreneurship Odysseys: Towards an Enterprising Generation",
+        "issuer": "Regional Investment Center of Béni Mellal - Khénifra - Morocco",
+        "driveUrl": "https://drive.google.com/file/d/1mCyvESLOEzjh8Xr4s5GNL681q2gFGVk6/view?usp=sharing"
+      }
+    },
+    {
+      "title": "HULT PRIZE ",
+      "date": "Dec 2020- April 2021",
+      "description": "During my first year at ENSAK, I joined the HULT PRIZE Club. After several workshops and collaborating with my team (Legacy Leavers), our project, \"Aji l'Happiness Karma,\" took third place in the competition 🥉. Winning third place in the on-campus program qualified us to participate in the regional finals hosted at the Bremen Impact Summit in April 2021.",
+      "tags": [
+        "Workshops",
+        "Startup"
+      ],
+      "logo": "/images/activities/hultprize/2021/hp0.png",
+      "photos": [
+        "/images/activities/hultprize/2021/hp1.png",
+        "/images/activities/hultprize/2021/hp2.png",
+        "/images/activities/hultprize/2021/hp3.png",
+        "/images/activities/hultprize/2021/hp4.png",
+        "/images/activities/hultprize/2021/hp5.png",
+        "/images/activities/hultprize/2021/hp6.png"
+      ],
+      "links": [],
+      "certification": {
+        "title": "Regional finals hosted at the 2021 Bremen Impact Summit",
+        "issuer": "Hultprize Bremen",
+        "driveUrl": "https://drive.google.com/file/d/12tHyxFwJ21xrq3JmusHhdQZpmeejKeyd/view?usp=sharing"
+      }
     }
   ],
   "skills": {
-    "languages": ["Tamazight", "Arabic", "English", "French"],
-    "programming": ["Python", "Java", "JavaScript", "C", "C++", "PHP", "SQL", "HTML/CSS"],
-    "frameworks": ["Symfony", "Django", "Flask", "Spring Boot", "Bootstrap", "jQuery"]
+    "languages": [
+      "Tamazight",
+      "Arabic",
+      "English",
+      "French"
+    ],
+    "programming": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "C",
+      "C++",
+      "PHP",
+      "SQL",
+      "HTML/CSS"
+    ],
+    "frameworks": [
+      "Symfony",
+      "Django",
+      "Flask",
+      "Spring Boot",
+      "Bootstrap",
+      "jQuery"
+    ]
   },
   "certifications": [
     {
@@ -222,15 +540,24 @@
     }
   ],
   "contact": {
-    "heading": "Let's talk research, teaching, or the mountains",
+    "heading": "Let's talk research, teaching, or the mountains.",
     "text": "Open to collaboration, guest talks, and anyone who wants to talk about AI, teaching, or good hiking trails.",
     "email": "kaoutarsarsari@gmail.com",
     "linkedin": "https://www.linkedin.com/in/kaoutar-sarsari",
-    "kilma": "https://kilma.app/@Kaoutar_Sarsari"
+    "kilma": ""
   },
+  "news": [
+    {
+      "date": "21–22 October 2026",
+      "text": "Our lab is proud to organize ICCT 2026!  The conference spans eight major tracks from AI and robotics to renewable energy, green hydrogen, and cybersecurity. For more details, visit our website.",
+      "link": "https://icct.ma/",
+      "image": "/images/news/icct.png"
+    }
+  ],
+  "articles": [],
   "closingNote": {
-    "photo": "",
-    "feedbackText": "Got feedback about this website? I'd genuinely love to hear it.",
-    "feedbackEmail": ""
+    "feedbackText": "I would love to hear from you. Your feedback is welcome!",
+    "photo": "/images/about/ks3.png",
+    "feedbackEmail": "kaoutarsarsari@gmail.com"
   }
 }
